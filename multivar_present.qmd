@@ -1,0 +1,37 @@
+---
+title: Caçando Pokémons
+subtitle: Multivariada Área 2
+format: clean-revealjs
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: João Arend
+    affiliations: UFRGS - Estatística - mat02239
+date: "`r Sys.Date()`"
+---
+
+```{r libs, include = FALSE}
+packages <- c("tidyverse", "corrplot", "viridis", "RColorBrewer", "igraph", "ggraph", "plotly", "ggExtra", "reticulate", "hrbrthemes", "ggiraph", "ellipse", "fmsb", "scales")
+
+
+for (p in packages) {
+  if (!require(p, character.only = TRUE)) install.packages(p)
+  library(p, character.only = TRUE)
+}
+```
+
+```{r data, include = FALSE}
+#db <- read.csv("")
+```
+
+# Introdução
+
+## Problema de Pesquisa
+
+# Resolução
+
+## Aplicação de técnica tal...
+
+# Muito obrigado pela atenção!
+
